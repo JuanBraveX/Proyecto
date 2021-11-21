@@ -1,0 +1,58 @@
+<div class="card">
+    <div class="card-header">
+        Agregar
+    </div>
+    <div class="card-body">
+        <form [formGroup]="formularioS" (ngSubmit)="enviarDatos()">
+            <div class="mb-3">
+                <label for="" class="form-label">rol:</label>
+                <input type="text" class="form-control" name="" formControlName="rol" id="" aria-describedby="helpId"
+                    placeholder="rol">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">nombre:</label>
+                <input type="email" class="form-control" name="" formControlName="nombre" id=""
+                    aria-describedby="helpId" placeholder="nombre">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">apellido_paterno:</label>
+                <input type="text" class="form-control" name="" formControlName="apellido_paterno" id="" aria-describedby="helpId"
+                    placeholder="apellido_paterno">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">apellido_materno:</label>
+                <input type="email" class="form-control" name="" formControlName="apellido_materno" id=""
+                    aria-describedby="helpId" placeholder="apellido_materno">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">edad:</label>
+                <input type="text" class="form-control" name="" formControlName="edad" id="" aria-describedby="helpId"
+                    placeholder="edad">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">telefono:</label>
+                <input type="email" class="form-control" name="" formControlName="telefono" id=""
+                    aria-describedby="helpId" placeholder="telefono">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">correo:</label>
+                <input type="text" class="form-control" name="" formControlName="correo" id="" aria-describedby="helpId"
+                    placeholder="correo">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">usuario:</label>
+                <input type="email" class="form-control" name="" formControlName="usuario" id=""
+                    aria-describedby="helpId" placeholder="usuario">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">password:</label>
+                <input type="email" class="form-control" name="" formControlName="password" id=""
+                    aria-describedby="helpId" placeholder="password">
+            </div>
+            <div class="btn-group" role="group" aria-label="">
+                <button type="submit" class="btn btn-success">Agregar</button>
+                <button type="button" class="btn btn-primary">Cnacelar</button>
+            </div>
+        </form>
+    </div>
+</div>

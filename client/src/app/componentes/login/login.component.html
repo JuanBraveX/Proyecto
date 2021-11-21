@@ -1,0 +1,28 @@
+<section style="background-color: #ffffff;">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card shadow-2-strong" style="border-radius: 1rem;" style="background-color: #586c8c;">
+                    <div class="card-body p-5 text-center">
+                        <form [formGroup]="formularioS" (ngSubmit)="IniciarInst()">
+                            <i class="bi bi-person" style="font-size: 800%; color:  #ffffff;"></i>
+                            <hr class="text-white" style="height: 10px; color:  #ffffff ;">
+                            <div class="form-outline mb-4">
+                                <input type="text" id="user" class="form-control form-control-lg" placeholder="Usuario"
+                                    required="required" formControlName="id" 
+                                    [(ngModel)]="id"/>
+                            </div>
+                            <div class="form-outline mb-4">
+                                <input type="password" id="typePasswordX-2" class="form-control form-control-lg"
+                                    placeholder="Password" id="pass" required="required" formControlName="pass"
+                                    [(ngModel)]="pass"/>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block" type="submit" id="entrar">Login</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

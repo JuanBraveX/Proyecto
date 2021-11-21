@@ -1,0 +1,7 @@
+{
+    "/public/*":{
+        "target":"http://localhost/proyecto/server",
+        "secure":false,
+        "logLevel":"debug"
+    }
+}
